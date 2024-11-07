@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #333;
+    line-height: 20px;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    font-weight: 700;
+    /* background: #f4f4f4; */
+    background-image: url(b1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .hero-section a{
+    background-color: #ffffff62;
+    color: white;
+    }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .introduction, .services, .testimonials, .contact {
+    padding: 2rem 1rem;
+  }
+  
+  .introduction p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .services .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .services .card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  /* .card h3{
+    margin-bottom: 2em;
+    border: 2px solid black;
+    border-radius: 1.2em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+  } */
+  
+  .testimonials blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #e9e9e9;
+  }
+  .contact{
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  
+  .contact-form label, .contact-form input, .contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.4em;
+    border-radius: 0.5em;
+  }
+  
+  .contact-form button {
+    padding: 0.75rem;
+    background: #2ba1d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .main{
+    background-color: #e3fbff;
+  }
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .services .card {
+      width: 100%;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin: 0.5rem 0;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+        padding: 20px;
+        
+    }
+    .nav-links li{
+        margin: 1.2em;
+    }
+  }
+
+  @media (min-width: 350px){
+    .services h2{
+        text-align: center;
+    }
+    .testimonials h2{
+        text-align: center;
+    }
+    .introduction h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contact h2{
+        text-align: center;
+    }
+    
+  }
+  
+  
