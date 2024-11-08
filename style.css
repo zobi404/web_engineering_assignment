@@ -160,7 +160,7 @@
     }
   }
 
-  @media (min-width: 350px){
+  @media (min-width: 300px){
     .services h2{
         text-align: center;
     }
